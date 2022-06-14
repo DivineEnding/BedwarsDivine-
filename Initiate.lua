@@ -249,12 +249,13 @@ FutureInjector.BackgroundColor3 = Color3.new(0.168627, 0.168627, 0.168627)
 FutureInjector.BorderSizePixel = 0
 FutureInjector.Position = UDim2.new(0, 0,1.00275475, 0)
 FutureInjector.Size = UDim2.new(0, 108, 0, 50)
-FutureInjector.Text = "FutureInjector"
+FutureInjector.Text = "Future Injector"
 FutureInjector.TextColor3 = Color3.new(1, 0.333333, 0)
 FutureInjector.TextScaled = true
 FutureInjector.TextSize = 14
 FutureInjector.TextWrapped = true
 FutureInjector.MouseButton1Down:connect(function()
+					game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("[Divine+] Injected Future!", "All")
 	loadstring(game:HttpGet(('https://raw.githubusercontent.com/joeengo/Future/main/loadstring.lua'),true))()
 end)
 
@@ -264,12 +265,13 @@ VapeInjector.BackgroundColor3 = Color3.new(0.168627, 0.168627, 0.168627)
 VapeInjector.BorderSizePixel = 0
 VapeInjector.Position = UDim2.new(0, 0, 1.14325059, 0)
 VapeInjector.Size = UDim2.new(0, 108, 0, 50)
-VapeInjector.Text = "VapeInjector"
+VapeInjector.Text = "Vape Injector"
 VapeInjector.TextColor3 = Color3.new(1, 0.333333, 0)
 VapeInjector.TextScaled = true
 VapeInjector.TextSize = 14
 VapeInjector.TextWrapped = true
 VapeInjector.MouseButton1Down:connect(function()
+				game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("[Divine+] Injected Vxpe!", "All")
 	loadstring(game:HttpGet(('https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/NewMainScript.lua'),true))()
 end)
 SpectateGUI.Name = "Spectate GUI"
@@ -335,7 +337,7 @@ Main2.Active = true
 Main2.Draggable = true
 while true do wait(10) 
 
-local A_1 = "i beat bedwars using divine+" local A_2 = "All" 
+local A_1 = "Divine+ 1 Watchcat 0" local A_2 = "All" 
 local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest Event:FireServer(A_1, A_2) end
 Name_2.Name = "Name"
 Name_2.Parent = Main2
