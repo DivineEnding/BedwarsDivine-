@@ -302,9 +302,9 @@ Main2.Position = UDim2.new(0.323224276, 0, 0.148058251, 0)
 Main2.Size = UDim2.new(0, 109, 0, 262)
 Main2.Active = true
 Main2.Draggable = true
-while true do wait(4) 
+while true do wait(10) 
 
-local A_1 = "DivineEnding > Bedwars terrible anticheat" local A_2 = "All" 
+local A_1 = "i beat bedwars using divine+" local A_2 = "All" 
 local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest Event:FireServer(A_1, A_2) end
 Name_2.Name = "Name"
 Name_2.Parent = Main2
