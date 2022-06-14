@@ -7,6 +7,8 @@ local InfiniteJump = Instance.new("TextButton")
 local BTools = Instance.new("TextButton")
 local Admin = Instance.new("TextButton")
 local SpectateGUI = Instance.new("TextButton")
+local VapeInjector = Instance.new("TextButton")
+local FutureInjector = Instance.new("TextButton")
 local Main2 = Instance.new("Frame")
 local Name_2 = Instance.new("TextLabel")
 local RedTeam = Instance.new("TextButton")
@@ -241,6 +243,35 @@ Admin.MouseButton1Down:connect(function()
 	loadstring(game:HttpGet(('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'),true))()
 end)
 
+FutureInjector.Name = "FutureInjector"
+FutureInjector.Parent = Main
+FutureInjector.BackgroundColor3 = Color3.new(0.168627, 0.168627, 0.168627)
+FutureInjector.BorderSizePixel = 0
+FutureInjector.Position = UDim2.new(0, 0,1.00275475, 0)
+FutureInjector.Size = UDim2.new(0, 108, 0, 50)
+FutureInjector.Text = "FutureInjector"
+FutureInjector.TextColor3 = Color3.new(1, 0.333333, 0)
+FutureInjector.TextScaled = true
+FutureInjector.TextSize = 14
+FutureInjector.TextWrapped = true
+FutureInjector.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet(('https://raw.githubusercontent.com/joeengo/Future/main/loadstring.lua'),true))()
+end)
+
+VapeInjector.Name = "FutureInjector"
+VapeInjector.Parent = Main
+VapeInjector.BackgroundColor3 = Color3.new(0.168627, 0.168627, 0.168627)
+VapeInjector.BorderSizePixel = 0
+VapeInjector.Position = UDim2.new(0, 0, 1.14325059, 0)
+VapeInjector.Size = UDim2.new(0, 108, 0, 50)
+VapeInjector.Text = "VapeInjector"
+VapeInjector.TextColor3 = Color3.new(1, 0.333333, 0)
+VapeInjector.TextScaled = true
+VapeInjector.TextSize = 14
+VapeInjector.TextWrapped = true
+VapeInjector.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet(('https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/NewMainScript.lua'),true))()
+end)
 SpectateGUI.Name = "Spectate GUI"
 SpectateGUI.Parent = Main
 SpectateGUI.BackgroundColor3 = Color3.new(0.168627, 0.168627, 0.168627)
@@ -440,3 +471,5 @@ Copy.TextWrapped = true
 Copy.MouseButton1Down:connect(function()
 	setclipboard("https://www.youtube.com/channel/UCLBgEuZMLUshvIbjJVgP5IA")
 end)
+
+
