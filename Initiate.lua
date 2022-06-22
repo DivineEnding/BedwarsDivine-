@@ -185,12 +185,9 @@ INFINITEJUMP.TextColor3 = Color3.fromRGB(0, 0, 0)
 INFINITEJUMP.TextScaled = true
 INFINITEJUMP.TextSize = 14.000
 INFINITEJUMP.TextWrapped = true
-INFINITEJUMP..MouseButton1Down:connect(function()
+INFINITEJUMP.MouseButton1Down:connect(function()
 	local Player = game:GetService'Players'.LocalPlayer;
 local UIS = game:GetService'UserInputService';
-game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("[Divine+] Enabled Infinite Jump!", "All")
-
-
 _G.JumpHeight = 50;
 
 function Action(Object, Function) if Object ~= nil then Function(Object); end end
